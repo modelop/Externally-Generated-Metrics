@@ -4,4 +4,4 @@ import pandas
 # modelop.metrics
 def metrics(result):
     data = pandas.DataFrame(result)
-    return result
+    return data
