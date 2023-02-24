@@ -1,6 +1,7 @@
 import json
-
+import pandas
 
 # modelop.metrics
 def metrics(result):
-    yield result
+    data = pandas.DataFrame(result)
+    return result
