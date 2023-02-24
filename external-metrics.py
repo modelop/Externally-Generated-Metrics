@@ -25,5 +25,5 @@ def init(job_json):
 
 
 # modelop.metrics
-def metrics(result) -> dict:
+def metrics(result):
     yield result
