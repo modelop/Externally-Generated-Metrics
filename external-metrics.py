@@ -1,5 +1,4 @@
 import json
-#from _typeshed import SupportsNext
 
 import pandas as pd
 
