@@ -15,6 +15,8 @@ import pandas as pd
 #
 # data - The input data of the first input asset of the job, as a pandas dataframe
 #
+
+# modelop.metrics
 def metrics(data: pd.DataFrame) -> dict:
 	yield data.iloc[0].to_dict()
 
